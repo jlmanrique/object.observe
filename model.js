@@ -7,6 +7,10 @@ Object.observe(model, function(changes){
 
 model.asistentes = 21;
 //add asistentes undefined 
-delete model.asistentes
+delete model.asistentes;
 //delete asistentes 21 
 
+model.admin = {};
+//add admin undefined 
+model.admin.name = "Jose";
+//
